@@ -1,6 +1,6 @@
 {
 	"name": "@compactjs/cap",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Caps a value when out of a defined range",
 	"source": "src/index.js",
 	"main": "dist/index.js",
