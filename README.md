@@ -58,9 +58,25 @@ const { cap } = cap;
 ### Example:
 
 ```javascript
-cap(23, 0, 1); // returns: 1
+const min = 1;
+const max = 5;
+cap(7, min, max); // returns: 5
 
+cap(3, 0, 6); // returns: 3
 cap(-5, 1, -4); // returns: -4
+```
+
+### Function declaration
+
+```ts
+/**
+ * Limits value to range from min to max.
+ * If max is omitted min will be used as max, without a min range limit.
+ * @value value to limit
+ * @min minimum value
+ * @max maximum value (optional)
+ */
+function cap(value: number, min: number, max?: number): number;
 ```
 
 ## Run tests
