@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/CompactJS/cap/compare/v1.0.2...v1.1.0) (2021-07-21)
+
+
+### Features
+
+* **docs:** improve documentation ([7d98cff](https://github.com/CompactJS/cap/commit/7d98cffca469ac7aa07df32bb9f1aa7c78fca925))
+
 ## [1.0.2](https://github.com/CompactJS/cap/compare/v1.0.1...v1.0.2) (2020-09-07)
 
 
